@@ -1,0 +1,129 @@
+/* responsive start*/
+@media only screen and (max-width: 1400px) {
+    .home_s1_grid_child h1 {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .menu li {
+        margin-right: 0px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header {
+        position: static;
+    }
+
+    .menu_ul {
+        position: absolute;
+        background-color: #fff;
+        top: 84px;
+        width: 100%;
+        left: -1000px;
+        padding: 20px 0px;
+        z-index: 1;
+        transition: left 0.3s;
+    }
+
+    .menu_ul li {
+        display: block;
+        margin-top: 20px;
+    }
+
+    /* humberger start */
+    .humberger {
+        width: 25px;
+    }
+
+    .line {
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+    }
+
+    .line2 {
+        margin: 5px 0px;
+    }
+
+    /* humberger end */
+    .home_s1_grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* footer start */
+    .footer_main{
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* footer end */
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 600px) {
+    .home_s1_grid_child h1{
+        font-size: 45px;
+    }
+
+    .home_s1_grid_child p{
+        font-size: 16px;
+    }
+
+    /* footer start */
+    .footer_main{
+        grid-template-columns: 1fr;
+    }
+    /* footer end */
+}
+
+
+/* responsive end*/
+
+
+/* responsive start container */
+@media only screen and (min-width: 1400px) {
+    .container {
+        width: 1320px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 720px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .container {
+        width: 520px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+/* responsive end */

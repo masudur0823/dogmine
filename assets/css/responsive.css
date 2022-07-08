@@ -1,7 +1,40 @@
 /* responsive start*/
 @media only screen and (max-width: 1400px) {
+    .spaceY {
+        padding: 60px 0px;
+    }
+
     .home_s1_grid_child h1 {
         font-size: 55px;
+    }
+
+    .homeS2_card_title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .homeS2_card1 {
+        padding: 15px 20px;
+    }
+
+    .homeS2_card p {
+        font-family: 'Signika';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 140%;
+        text-align: center;
+        color: #000000;
+    }
+
+    .homeS2_card span {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: #000000;
+
     }
 }
 
@@ -44,8 +77,20 @@
         background-color: #000;
     }
 
+    .line1 {
+        transition: all 0.3s;
+    }
+
+    .line3 {
+        transition: all 0.3s;
+    }
+
     .line2 {
         margin: 5px 0px;
+    }
+
+    .humberger {
+        display: block;
     }
 
     /* humberger end */
@@ -53,29 +98,57 @@
         grid-template-columns: 1fr;
     }
 
-    /* footer start */
-    .footer_main{
-        grid-template-columns: repeat(2,1fr);
+    /* home sec_2 start */
+    .homeS2_grid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
+
+    /* home sec_2 end */
+
+    /* footer start */
+    .footer_main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     /* footer end */
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+
+    /* home sec_2 start */
+    .homeS2_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* home sec_2 end */
+}
 
 @media only screen and (max-width: 600px) {
-    .home_s1_grid_child h1{
+    .home_s1_grid_child h1 {
         font-size: 45px;
     }
 
-    .home_s1_grid_child p{
+    .home_s1_grid_child p {
         font-size: 16px;
     }
 
+
     /* footer start */
-    .footer_main{
+    .footer_main {
         grid-template-columns: 1fr;
     }
+
     /* footer end */
+}
+
+@media only screen and (max-width: 500px) {
+
+    /* home sec_2 start */
+    .homeS2_grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* home sec_2 end */
 }
 
 
@@ -83,7 +156,15 @@
 
 
 /* responsive start container */
-@media only screen and (min-width: 1400px) {
+
+@media only screen and (min-width: 1550px) {
+    .container {
+        width: 1500px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1550px) {
     .container {
         width: 1320px;
         margin: 0 auto;

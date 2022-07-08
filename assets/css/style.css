@@ -17,6 +17,23 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-signika);
 }
 
+/* common style start */
+.spaceY {
+    padding: 100px 0px;
+}
+
+.title1 {
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+}
+
+/* common style end */
+
 
 /* header start */
 .menu {
@@ -72,6 +89,10 @@ header {
     position: absolute;
     background: #ffffff7a;
     width: 100%;
+}
+
+.humberger {
+    display: none;
 }
 
 /* header end */
@@ -174,6 +195,59 @@ header {
 
 /* home sec_1 end */
 
+/* home sec_2 start */
+.homeS2_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.homeS2_card1 {
+    background: rgba(114, 180, 218, 0.1);
+    border: 1px solid #1A9DE9;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+.homeS2_card_title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.homeS2_card p {
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+}
+
+.homeS2_card span {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+
+}
+
+/* home sec_2 end */
+
+/* home sec_4 start */
+.section_4{
+    
+}
+/* home sec_4 end */
+
 
 /* footer start */
 footer {
@@ -233,7 +307,7 @@ footer {
     margin-top: 20px;
 }
 
-.footer_ul li:first-child{
+.footer_ul li:first-child {
     margin-top: 40px;
 }
 

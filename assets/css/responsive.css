@@ -36,6 +36,26 @@
         color: #000000;
 
     }
+
+    .homeS4_table_div thead {
+        font-size: 20px;
+    }
+
+    .homeS4_table_div th {
+        padding: 18px 0px 18px 40px;
+    }
+
+    .homeS4_table_div td {
+        padding: 18px 0px 18px 40px;
+    }
+
+    .homeS4_table_div {
+        padding: 50px 40px;
+    }
+
+    .arrowBtnSvg{
+        width: 20px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -105,6 +125,26 @@
 
     /* home sec_2 end */
 
+    /* home sec_4 start */
+    .homeS4_table_div thead {
+        font-size: 15px;
+    }
+
+    .homeS4_table_div th {
+        padding: 10px;
+    }
+
+    .homeS4_table_div td {
+        padding: 10px;
+    }
+
+    .homeS4_table_div table {
+        width: 750px;
+        border-spacing: 0px;
+    }
+
+    /* home sec_4 end */
+
     /* footer start */
     .footer_main {
         grid-template-columns: repeat(2, 1fr);
@@ -121,6 +161,22 @@
     }
 
     /* home sec_2 end */
+
+    .homeS4_table_div {
+        padding: 30px 20px;
+    }
+
+    .sliderBtn {
+        display: none;
+    }
+
+    .title1{
+        font-size: 25px;
+    }
+
+    .homeS2_title button{
+        padding: 5px 15px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -153,6 +209,8 @@
 
 
 /* responsive end*/
+
+
 
 
 /* responsive start container */

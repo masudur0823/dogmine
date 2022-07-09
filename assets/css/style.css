@@ -26,12 +26,25 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.text_white {
+    color: #fff !important;
+}
+
 .title1 {
     font-family: 'Signika';
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
     line-height: 140%;
+    color: #000000;
+}
+
+.para1 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
     color: #000000;
 }
 
@@ -90,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
     position: absolute;
-    background: #ffffff7a;
+    background: #ffffffd4;
     width: 100%;
 }
 
@@ -100,6 +113,9 @@ header {
 
 /* header end */
 
+
+/* Home page start */
+/* ------------------------------------------------ */
 
 /* home sec_1 start */
 .home_sec1 {
@@ -380,6 +396,83 @@ header {
 }
 
 /* home sec_4 end */
+
+
+/* ------------------------------------------------ */
+/* Home page end */
+
+
+/* Cryptocurrency page start */
+/* ------------------------------------------------------------------- */
+
+/* Cryptocurrency section1 start */
+.cryptoS1 {
+    background-image: url(../images/section_two_bg.png);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cryptoS1 .title1 {
+    margin-top: 100px;
+}
+
+.CrytopS1_div {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 60px 60px;
+}
+
+.CrytopS1_div h1 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    color: #005686;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.CrytopS1_div h1::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 1px;
+    background: #005686;
+}
+
+.CrytopS1_div_parastyle1{
+    padding-left: 20px;
+    border-left: 5px solid #FFCA8C;
+    margin: 20px 0px;
+}
+
+/* Cryptocurrency section1 end */
+
+/* Cryptocurrency section2 start */
+.cryptoS2{
+    margin-top: 500px;
+}
+/* Cryptocurrency section2 end */
+
+/* ------------------------------------------------------------------- */
+/* Cryptocurrency page end */
+
+
+
+
+
+
+
+
+
 
 
 /* footer start */

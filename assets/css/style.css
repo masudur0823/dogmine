@@ -22,12 +22,24 @@ h1, h2, h3, h4, h5, h6 {
     padding: 100px 0px;
 }
 
+.spaceXY {
+    padding: 50px 40px;
+}
+
 .text_center {
     text-align: center;
 }
 
 .text_white {
     color: #fff !important;
+}
+
+.text_blue {
+    color: #005686 !important;
+}
+
+.mt_16 {
+    margin-top: 16px;
 }
 
 .mb_16 {
@@ -45,6 +57,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 45px;
     line-height: 140%;
     color: #000000;
+}
+
+.title2 {
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 140%;
+    color: #005686;
 }
 
 .para1 {
@@ -650,7 +671,7 @@ header {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: fit-content;
 }
 
@@ -658,6 +679,180 @@ header {
 
 /* ------------------------------------------------------------------- */
 /* Cryptocurrency page end */
+
+/* Cryptocurrency page start */
+/* ------------------------------------------------------------------- */
+.crypto2S1 {
+    background-image: url(../images/section_two_bg1.png);
+}
+
+/* ------------------------------------------------------------------- */
+/* Cryptocurrency page end */
+
+/* How to page start */
+/* ------------------------------------------------------------------- */
+.htS1 {
+    background-image: url(../images/htS1_bg.png);
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.read_time {
+    padding: 15px 0px;
+    text-align: center;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    color: #000000;
+    background: #FCE8D4;
+}
+
+.htS2_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.ht_s2_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.htS2_grid p {
+    margin-top: 8px;
+}
+
+.htS2_grid2 {
+    margin-top: 100px;
+}
+
+.htS3_sec3 {
+    background-image: url(../images/htS2_sec3_bg.png);
+    margin-top: 100px;
+}
+
+.htS3_sec3 p {
+    margin-top: 15px;
+}
+
+.htS3 {
+    background-image: url(../images/htS3_bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.htS3_div {
+    background: #ffffffd1;
+    border-radius: 10px;
+}
+
+.htS4_div {
+    background: #F8F9FA;
+    border-radius: 10px;
+}
+
+.htS4_div p {
+    margin-top: 15px;
+}
+
+.htS4_img1 {
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.htS5_grid {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-gap: 30px;
+}
+
+.htS5_grid p {
+    margin-top: 15px;
+}
+
+.htS5_grid2 {
+    margin-top: 15px;
+    grid-template-columns: 7fr 5fr;
+}
+
+.htS5 p {
+    margin-top: 15px;
+}
+
+.htS5_div {
+    background: #FFEED3;
+    border-radius: 10px;
+}
+
+.htS5 {
+    padding-bottom: 50px;
+}
+
+.htS6_div {
+    background: #F4F4F4;
+    border-radius: 10px;
+}
+
+.htS6 p {
+    margin-top: 15px;
+}
+
+.htS6_img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.hts7_div {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-gap: 30px;
+    border-top: 1px solid#005686;
+}
+
+.hts7_div p {
+    margin-top: 15px;
+}
+
+.hts7_div_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.htS7_second_div {
+    background: #E9F6FF;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.htS7_link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #005686;
+    display: block;
+
+}
+.htS7_second_div p{
+    margin-top: 15px;
+}
+
+.htS7_second_div a{
+    margin-top: 15px;
+}
+
+/* ------------------------------------------------------------------- */
+/* How to page end */
 
 
 

@@ -169,9 +169,41 @@
     }
 
     /* footer end */
+
+    .htS2_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .htS2_grid2 div:nth-of-type(1) {
+        order: 2;
+    }
+
+    .htS2_grid2 div:nth-of-type(2) {
+        order: 1;
+    }
+
+    .htS5_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hts7_div {
+        grid-template-columns: 1fr;
+    }
+
+    .hts7_div div:nth-of-type(1) {
+        order: 2;
+    }
+
+    .hts7_div div:nth-of-type(2) {
+        order: 1;
+    }
 }
 
 @media only screen and (max-width: 768px) {
+
+    .spaceXY {
+        padding: 30px 20px;
+    }
 
     /* home sec_2 start */
     .homeS2_grid {
@@ -190,6 +222,10 @@
 
     .title1 {
         font-size: 25px;
+    }
+
+    .title2 {
+        font-size: 22px;
     }
 
     .crypto_S3_img_div {
@@ -223,6 +259,7 @@
         right: -10px;
         bottom: -10px;
     }
+
     .cryptoS4_table_div table {
         width: 602px;
         border-spacing: 0px;
@@ -231,6 +268,7 @@
     .cryptoS4_table_div {
         padding: 0px 15px;
     }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -242,7 +280,7 @@
         font-size: 16px;
     }
 
-    .yellow_btn{
+    .yellow_btn {
         padding: 5px 8px;
     }
 
@@ -253,6 +291,10 @@
     }
 
     /* footer end */
+
+    .htS1 {
+        min-height: 300px;
+    }
 }
 
 @media only screen and (max-width: 500px) {

@@ -197,6 +197,15 @@
     .hts7_div div:nth-of-type(2) {
         order: 1;
     }
+
+    .hcS2_header{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .dash_S1_grid{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -269,6 +278,26 @@
         padding: 0px 15px;
     }
 
+    .dashS2_table_top {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .online_btn{
+        padding: 10px 20px;
+    }
+
+    .offline_btn{
+        padding: 10px 20px;
+    }
+
+    .online_btn::before{
+        left: 10px;
+    }
+
+    .offline_btn::before{
+        left: 10px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -292,8 +321,12 @@
 
     /* footer end */
 
-    .htS1 {
+    .common_S1 {
         min-height: 300px;
+    }
+
+    .hcS2_header_left{
+        flex-direction: column;
     }
 }
 

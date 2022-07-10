@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #005686 !important;
 }
 
+.text_black {
+    color: #000 !important;
+}
+
 .mt_16 {
     margin-top: 16px;
 }
@@ -48,6 +52,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .mb_32 {
     margin-bottom: 32px;
+}
+
+.common_S1 {
+    min-height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
 }
 
 .title1 {
@@ -66,6 +78,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 35px;
     line-height: 140%;
     color: #005686;
+}
+
+.title3 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    color: #000000;
 }
 
 .para1 {
@@ -692,12 +713,7 @@ header {
 /* How to page start */
 /* ------------------------------------------------------------------- */
 .htS1 {
-    background-image: url(../images/htS1_bg.png);
-    min-height: 500px;
-    background-position: center;
-    background-size: cover;
-    display: grid;
-    place-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/htS1_bg.png);
 }
 
 .read_time {
@@ -843,16 +859,493 @@ header {
     display: block;
 
 }
-.htS7_second_div p{
+
+.htS7_second_div p {
     margin-top: 15px;
 }
 
-.htS7_second_div a{
+.htS7_second_div a {
     margin-top: 15px;
 }
 
 /* ------------------------------------------------------------------- */
 /* How to page end */
+
+/* hardware Comparison page start */
+/* ------------------------------------------------------------------- */
+
+.hcS1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hcS1_bg.png);
+}
+
+.hcS2_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hcS2_header_left {
+    display: flex;
+    background: rgba(240, 143, 60, 0.1);
+    border: 1px solid #F08F3C;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.hcS2_header_left p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 165%;
+    color: #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hcS2_header_left p:hover {
+    font-weight: 500;
+}
+
+.hcS2_input_search {
+    background: #FFFFFF;
+    opacity: 0.8;
+    border: 1px solid #F08F3C;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.hcS2_header_right {
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.hcS2_s_icon_div {
+    position: absolute;
+    background: #F08F3C;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 80px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+
+/* table */
+.hcS2_table_div {
+    border-radius: 10px;
+    margin-top: 50px;
+    overflow-x: auto;
+}
+
+.hcS2_table_div table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.hcS2_table_div thead {
+    border-radius: 10px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.hcS2_table_div th {
+    padding: 22px;
+    background: #005686;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+}
+
+.hcS2_table_div th:first-child {
+    border-radius: 10px 0px 0px 0px;
+    border-right: 0px;
+}
+
+.hcS2_table_div th:nth-of-type(2) {
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.hcS2_table_div th:last-child {
+    border-radius: 0px 10px 0px 0px;
+    border-left: 0px
+}
+
+.hcS2_table_div td {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    padding: 19px;
+    text-align: center;
+}
+
+.hcS2_table_div td:first-child {
+    background: rgba(255, 248, 239, 0.4);
+}
+
+.hcS2_table_div tr:nth-of-type(even) {
+    background: #F2F2F2;
+}
+
+.hcS2_table_div tr:nth-of-type(odd) {
+    background: #fff;
+}
+
+.hcS2_table_div tfoot td:first-child {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.hcS2_table_div tfoot td:last-child {
+    border-radius: 0px 0px 10px 0px;
+}
+
+.hcS2_table_link {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 165%;
+    /* identical to box height, or 23px */
+
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+/* table */
+
+/* ------------------------------------------------------------------- */
+/* hardware Comparison page end */
+
+
+
+/* Dashboard page start */
+/* ------------------------------------------------------------------- */
+.dash_sec1 {
+    padding-top: 150px;
+}
+
+.dashS1_div {
+    background: #F7F9FB;
+    border-radius: 10px;
+}
+
+.dashS1_div .title2 {
+    padding-left: 20px;
+    border-left: 5px solid #FFCA8C;
+}
+
+.dash_S1_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.dash_S1_grid_header {
+    background: #FFEBD3;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.dash_title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.dash_title_r {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+
+}
+
+.dashS1_cardbody {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.dashS1_value_unit {
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    color: #000000;
+
+}
+
+.flex_between {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.dashS1_horizontal {
+    border: 1px solid #E3E3E3;
+    margin: 15px 0px;
+}
+
+.flex_between p {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.dash_online {
+    position: relative;
+}
+
+.dash_online::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background: #47B71F;
+    border-radius: 50%;
+}
+
+.dash_offline {
+    position: relative;
+}
+
+.dash_offline::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background: #DD0505;
+    border-radius: 50%;
+}
+
+.dash_sec2 {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.dash_sec2_div {
+    background: #FAFAFA;
+    border-radius: 10px;
+}
+
+.dash_sec2 .title2 {
+    padding-left: 20px;
+    border-left: 5px solid #FFCA8C;
+}
+
+.dashS2_table_top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.dashS2_table_top h2 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.online_btn {
+    background: rgba(71, 183, 31, 0.05);
+    border: 1px solid #47B71F;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    position: relative;
+}
+
+.online_btn::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background: #47B71F;
+    border-radius: 50%;
+}
+
+.offline_btn {
+    background: rgba(221, 5, 5, 0.05);
+    border: 1px solid #DD0505;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+    position: relative;
+}
+
+.offline_btn::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background: #DD0505;
+    border-radius: 50%;
+}
+
+.dashS2_onofBtn {
+    display: flex;
+    gap: 20px;
+}
+
+/* table */
+.dash_table_div {
+    border-radius: 10px;
+    margin-top: 50px;
+    overflow-x: auto;
+}
+
+.dash_table_div table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.dash_table_div thead {
+    border-radius: 10px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.dash_table_div th {
+    padding: 22px;
+    background: #FFEBD3;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    border-right: 1px solid #E7E7E7 !important;
+}
+
+.dash_table_div th:first-child {
+    border-radius: 10px 0px 0px 0px;
+    border-right: 0px;
+}
+
+.dash_table_div th:nth-of-type(2) {
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.dash_table_div th:last-child {
+    border-radius: 0px 10px 0px 0px;
+    border-left: 0px
+}
+
+.dash_table_div td {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    padding: 19px;
+    text-align: center;
+    border-right: 1px solid #E7E7E7;
+}
+
+.dash_table_div tr:nth-of-type(even) {
+    background: #F2F2F2;
+}
+
+.dash_table_div tr:nth-of-type(odd) {
+    background: #fff;
+}
+
+.dash_table_div tfoot td:first-child {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.dash_table_div tfoot td:last-child {
+    border-radius: 0px 0px 10px 0px;
+}
+
+/* table */
+
+.dashS3_f_title{
+    margin: 20px 0px;
+}
+
+.dsahS2_img{
+    width: 100%;
+}
+
+/* ------------------------------------------------------------------- */
+/* Dashboard page end */
+
+
+
+/* Faq page start */
+/* ------------------------------------------------------------------- */
+
+.faqS1 {
+    background: url(../images/fagS1_bg.png);
+}
+
+/* ------------------------------------------------------------------- */
+/* Faq page end */
+
 
 
 

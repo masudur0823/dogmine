@@ -227,6 +227,10 @@
     .blog_img{
         height: 350px;
     }
+
+    .blog_details_layout{
+        grid-template-columns: 1fr;
+    }
     
 }
 
@@ -372,6 +376,10 @@
     /* home sec_2 end */
     .api_sec1_dbl_btn button{
         font-size: 7px;
+    }
+
+    .blog_img {
+        height: 250px;
     }
 }
 

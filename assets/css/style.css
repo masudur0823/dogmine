@@ -46,6 +46,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 16px;
 }
 
+.mt_50 {
+    margin-top: 50px;
+}
+
 .mb_16 {
     margin-bottom: 16px;
 }
@@ -60,6 +64,36 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     display: grid;
     place-items: center;
+}
+
+.yellow_btn {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+    background: rgba(255, 202, 140, 0.12);
+    border: 1px solid #F5AB54;
+    border-radius: 5px;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+
+.blue_btn {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #000000;
+    background: rgba(26, 144, 245, 0.12);
+    border: 1px solid #1A90F5;
+    border-radius: 5px;
+    padding: 8px 25px;
+    cursor: pointer;
 }
 
 .title1 {
@@ -509,20 +543,6 @@ header {
 /* Cryptocurrency section1 end */
 
 /* Cryptocurrency section2 start */
-
-.yellow_btn {
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    text-align: center;
-    color: #000000;
-    background: rgba(255, 202, 140, 0.12);
-    border: 1px solid #F5AB54;
-    border-radius: 5px;
-    padding: 8px 25px;
-}
 
 .cryptoS2 .title1 {
     margin-bottom: 10px;
@@ -1323,16 +1343,167 @@ header {
 
 /* table */
 
-.dashS3_f_title{
+.dashS3_f_title {
     margin: 20px 0px;
 }
 
-.dsahS2_img{
+.dsahS2_img {
     width: 100%;
 }
 
 /* ------------------------------------------------------------------- */
 /* Dashboard page end */
+
+
+/* API page start */
+/* ------------------------------------------------------------------- */
+
+.api_sec1 {
+    padding-top: 150px;
+}
+
+.api_sec1_dbl_btn {
+    margin: 30px 0px;
+    display: flex;
+    gap: 30px;
+}
+
+/* table */
+.api_table_div {
+    border-radius: 10px;
+    margin-top: 50px;
+    overflow-x: auto;
+}
+
+.api_table_div table {
+    width: 100%;
+    border-spacing: 0px;
+    background: #FAFAFA;
+}
+
+.api_table_div thead {
+    border-radius: 10px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.api_table_div tr {
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.api_table_div th {
+    padding: 22px;
+    background: #FFDEB1;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: start;
+    color: #000;
+}
+
+.api_table_div th:first-child {
+    border-radius: 10px 0px 0px 0px;
+    border-right: 0px;
+}
+
+.api_table_div th:nth-of-type(2) {
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.api_table_div th:last-child {
+    border-radius: 0px 10px 0px 0px;
+    border-left: 0px
+}
+
+.api_table_div td {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    padding: 19px;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.api_table_div td:first-child {
+    background: #EEF8FF;
+}
+
+.api_table_div tfoot td:first-child {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.api_table_div tfoot td:last-child {
+    border-radius: 0px 0px 10px 0px;
+}
+
+/* table */
+
+.api_sec3_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #FAFAFA;
+}
+
+.api_sec3_div .title3 {
+    padding: 10px;
+    background: #FFDEB1;
+    border-radius: 10px;
+}
+
+.api_sec3_div div:nth-of-type(1) {
+    grid-column: 1/3;
+}
+
+.api_sec3_div div:nth-of-type(2) {
+    background: #FAFAFA;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.api_sec3_div div:nth-of-type(3) {
+    background: linear-gradient(180deg, #EDF7FF 0%, rgba(237, 247, 255, 0) 100%);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.apiS3title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    color: #005686;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.apiS3title::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background: #005686;
+}
+
+/* ------------------------------------------------------------------- */
+/* API page end */
+
+
+
+
+
 
 
 
@@ -1343,8 +1514,111 @@ header {
     background: url(../images/fagS1_bg.png);
 }
 
+.fagS2_div {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 80px rgb(0 0 0 / 6%);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: -184px;
+    margin-bottom: 80px;
+}
+
+.fagS2_img {
+    width: 100%;
+}
+
 /* ------------------------------------------------------------------- */
 /* Faq page end */
+
+/* Blog page start */
+/* ------------------------------------------------------------------- */
+
+.blogS1 {
+    padding-top: 150px;
+}
+
+.blogS1_div {
+    background: #FAFAFA;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.blog_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.blog_img {
+    border-radius: 10px;
+    height: 430px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog_link {
+    font-family: 'Signika';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 145%;
+    text-transform: capitalize;
+    color: #005686;
+    text-decoration: none;
+    position: relative;
+}
+
+.blog_link:hover::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #005686;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.blog_card_line {
+    margin-top: 5px;
+    border-bottom: 2px solid #BDBDBD;
+}
+
+.blog_grid_title {
+    margin-top: 15px;
+}
+
+.blog_card_desc {
+    margin: 15px 0px;
+}
+
+.grid_time {
+    padding: 10px 30px;
+    display: inline-block;
+    background: #DA9833;
+    border-radius: 3px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.grid_time::before{
+    content: url(../images/icons/clock_white.svg);
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+/* ------------------------------------------------------------------- */
+/* Blog page end */
 
 
 

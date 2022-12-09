@@ -1934,9 +1934,10 @@ footer {
 
 /* form page start */
 .form_main{
-    display: grid;
-    place-items: center;
-    height: 100vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 .form_input_box{
     background: #F9F9F9;

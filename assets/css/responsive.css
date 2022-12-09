@@ -438,6 +438,12 @@
         width: 90%;
         margin: 0 auto;
     }
+    .pnf_main h2{
+        font-size: 6vw;
+    }
+    .missingPageSvg {
+        width: 73vw;
+    }
 }
 
 

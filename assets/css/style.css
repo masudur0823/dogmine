@@ -1915,3 +1915,32 @@ footer {
 
 
 /* footer end */
+
+
+/* page not found start */
+.pnf_main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.pnf_main h2{
+    font-size: 2vw;
+}
+.missingPageSvg{
+    width: 40vw;
+}
+/* page not found end */
+
+/* form page start */
+.form_main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.form_input_box{
+    background: #F9F9F9;
+    border-radius: 10px;
+    width: 450px;
+}
+/* form page end */

@@ -444,6 +444,15 @@
     .missingPageSvg {
         width: 73vw;
     }
+    .form_input_box{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .form_input_box{
+        width: 220px;
+    }
 }
 
 
